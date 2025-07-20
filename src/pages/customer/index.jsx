@@ -5,10 +5,10 @@ import React from "react";
 import styles from "./style.module.scss";
 import Header from "../../layout/Header";
 import SideBar from "../../layout/SideBar";
-import CostomerList from "../../components/CostomerList";
+import CustomerList from "../../components/CustomerList";
 // import ChartBar from "../../components/ChartBar";
 
-const Costomer = () => {
+const Customer = () => {
   return (
     <>
       <Header />
@@ -16,11 +16,11 @@ const Costomer = () => {
         {/*  */}
         <SideBar />
         {/* <ChartBar /> */}
-        <CostomerList />
+        <CustomerList />
         {/*  */}
       </div>
     </>
   );
 };
 
-export default Costomer;
+export default Customer;
